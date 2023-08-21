@@ -7,7 +7,7 @@ interface IProjectCard{
 export const ProjectCard:React.FC<IProjectCard> = ({className}) => {
   return (
     <Link
-      href="/pages/project.html"
+      href="/projects"
       className={cn("group relative z-10 transition duration-300 ease-out hover:-translate-y-12",className)}
     >
       <div className="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all duration-300 group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
