@@ -1,6 +1,11 @@
 import { Container } from "@/components/container";
 import { Intro } from "@/components/intro";
 import { Social } from "./components/social";
+import { Metadata } from "next";
+
+export const metaData:Metadata={
+  title:"About"
+}
 
 export default function About() {
   return (
