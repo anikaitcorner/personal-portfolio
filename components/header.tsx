@@ -27,7 +27,7 @@ export const Header = () => {
           <img className="w-full" src="https://user-images.githubusercontent.com/5709133/50445980-88299a80-0912-11e9-962a-6fd92fd18027.png" />
           </div>
 
-          <ul>
+          <ul className="flex flex-col gap-1 divide-y divide-zinc-100 dark:divide-zinc-900">
             {navLinks.map((nav) => {
               return (
                 <li key={nav.href}>

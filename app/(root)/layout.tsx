@@ -1,7 +1,7 @@
 "use client"
 import "../globals.css";
 import type { Metadata } from "next";
-import { Inter, Work_Sans } from "next/font/google";
+import {  Work_Sans } from "next/font/google";
 import { Header } from "@/components/header";
 import { useThemeMode } from "@/hooks/useThemeMode";
 

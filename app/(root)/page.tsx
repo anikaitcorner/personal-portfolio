@@ -2,7 +2,12 @@
 import { Container } from "@/components/container";
 import { Intro } from "@/components/intro";
 import { ProjectCard } from "@/components/project-card";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metaData:Metadata={
+  title:"Home "
+}
 
 export default function Home() {
   return (

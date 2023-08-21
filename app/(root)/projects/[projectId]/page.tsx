@@ -1,3 +1,9 @@
+import { Metadata } from "next"
+
+export const metaData:Metadata={
+    title:"Projects "
+}
+
 export default function Project({params}:{params:{projectId:string}}){
 
 
