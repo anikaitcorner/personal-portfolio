@@ -1,16 +1,15 @@
-"use client"
+"use client";
+import { useStateContext } from "@/context";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import React from "react";
 
 const ThemeToggler = () => {
-  const setThemeMode= useThemeMode(s=>s.setThemeMode)
+  const { toggleThemeMode } = useStateContext();
   return (
     <>
       <button
-        aria-label="switch theme"
-        data-themeswitcher-target="switcher"
         className="switcher group relative flex h-9 w-9 rounded-md before:absolute before:inset-0 before:rounded-md before:bg-zinc-100 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:bg-zinc-800"
-        onClick={setThemeMode}
+        onClick={toggleThemeMode}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
