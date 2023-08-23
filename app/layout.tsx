@@ -1,7 +1,6 @@
 "use client";
 import "./globals.css";
 import type { Metadata } from "next";
-import { useThemeMode } from "@/hooks/useThemeMode";
 import { Layout, ThemeToggler } from "@/components";
 import { ContextProvider } from "@/context";
 
