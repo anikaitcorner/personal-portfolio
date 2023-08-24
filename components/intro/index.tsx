@@ -12,23 +12,23 @@ interface ISocial {
 const Intro: React.FC<ISocial> = ({ externalLink }) => {
   return (
     <>
-      <div className="flex gap-12 items-center">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-12 items-center">
         <Avatar />
         <div>
-          <h1 className="text-3xl font-semibold text-zinc-950 dark:text-white">
+          <h1 className="text-center md:text-start text-3xl font-semibold text-zinc-950 dark:text-white">
             Mahadi Hasan
           </h1>
-          <p className="text-sm tracking-wide text-zinc-700 dark:text-zinc-300">
+          <p className="text-center md:text-start text-sm tracking-wide text-zinc-700 dark:text-zinc-300">
             Fullstack Web Developer
           </p>
 
-          <p className="mt-6 text-sm text-zinc-700 dark:text-zinc-300 w-full max-w-[400px]">
+          <p className="text-center md:text-start mt-6 text-sm text-zinc-700 dark:text-zinc-300 w-full max-w-[400px]">
             Full Stack Web Developer ( ReactJS - NextJS - PHP &amp; Laravel -
             Nodejs, MySQL, WordPress, MongoDB, ExpressJS, Firebase ) | AI
             Solution ( Python &amp; AI )
           </p>
 
-          <div className="mt-6 flex items-center gap-4 divide-x divide-zinc-200 dark:divide-zinc-800">
+          <div className="mt-6 flex items-center justify-center md:justify-start  gap-4 divide-x divide-zinc-200 dark:divide-zinc-800">
             <Link
               href="mailto:mahadi.dev.pm@gmail.com"
               className="group inline-flex h-8 items-center gap-2.5 rounded-md bg-zinc-950 px-3 transition-all duration-500 dark:bg-zinc-800 dark:hover:bg-zinc-700"

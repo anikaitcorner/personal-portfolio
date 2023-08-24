@@ -23,7 +23,10 @@ const Details = () => {
             programming needs and explore the possibilities of collaboration in
             the world of coding.
           </p>
-          <Social />
+          <Social
+            githubUrl={"https://github.com/mahadidev"}
+            linkedinUrl={"https://www.linkedin.com/in/mahadidev/"}
+          />
         </div>
       </div>
     </>

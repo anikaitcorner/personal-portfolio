@@ -1,6 +1,6 @@
 interface ISocial {
   githubUrl?: `https://github.com/${string}`;
-  linkedinUrl?: `https://www.linkedin.com/${string}`;
+  linkedinUrl?: `https://www.linkedin.com/in/${string}`;
 }
 
 const Social: React.FC<ISocial> = ({ githubUrl, linkedinUrl }) => {
@@ -43,10 +43,10 @@ const Social: React.FC<ISocial> = ({ githubUrl, linkedinUrl }) => {
         </a>
       </div>
       <a
-        href="mailto:contact@mahadi.dev"
+        href="mailto:mahadi.dev.pm@gmail.com"
         className="pl-4 text-base tracking-wide text-zinc-600 hover:text-sky-600 dark:text-zinc-400 dark:hover:text-white"
       >
-        contact@mahadi.dev
+        mahadi.dev.pm@gmail.com
       </a>
     </div>
   );
