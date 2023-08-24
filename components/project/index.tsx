@@ -2,15 +2,16 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 interface IProjectCard {
   className?: string;
+  img:string
 }
 
-const Project: React.FC<IProjectCard> = ({ className }) => {
+const Project: React.FC<IProjectCard> = ({ className,img }) => {
   return (
     <>
       <Link
         href="/projects"
         className={cn(
-          "group relative z-10 transition duration-300 ease-out hover:-translate-y-12",
+          "group relative z-10 transition duration-300 ease-out hover:-translate-y-12 h-full w-full",
           className
         )}
       >
@@ -37,7 +38,7 @@ const Project: React.FC<IProjectCard> = ({ className }) => {
         </div>
         <img
           className="rounded-md transition duration-500 group-hover:rounded-lg"
-          src="/images/projects/project-one.jpg"
+          src={img}
           alt="project cover"
           width="1380"
           height="1380"

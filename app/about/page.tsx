@@ -1,4 +1,6 @@
 import { Details, Intro, Container } from "@/components";
+import { projects } from "@/lib/utils";
+
 
 export default function About() {
   return (
@@ -28,7 +30,7 @@ export default function About() {
               <div className="h-80 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[0].img}
                   alt="lifestyle"
                   width="1380"
                   height="1380"
@@ -37,7 +39,7 @@ export default function About() {
               <div className="h-72 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[6].img}
                   alt="lifestyle"
                   width="826"
                   height="1239"
@@ -46,7 +48,7 @@ export default function About() {
               <div className="h-64 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[4].img}
                   alt="lifestyle"
                   width="826"
                   height="1239"
@@ -55,7 +57,7 @@ export default function About() {
               <div className="hidden h-60 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[3].img}
                   alt="lifestyle"
                   width="826"
                   height="1239"
@@ -64,7 +66,7 @@ export default function About() {
               <div className="hidden h-56 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[2].img}
                   alt="lifestyle"
                   width="2000"
                   height="1335"
@@ -72,8 +74,8 @@ export default function About() {
               </div>
               <div className="hidden h-52 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
                 <img
-                  className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  className="h-full w-full object-cover border border-slate-600"
+                  src={projects[1].img}
                   alt="lifestyle"
                   width="900"
                   height="1261"
@@ -82,66 +84,61 @@ export default function About() {
               <div className="hidden h-52 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[5]?.img}
                   alt="lifestyle"
                   width="2000"
                   height="1330"
                 />
               </div>
-              <div className="hidden h-56 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
+              <div className="h-56 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[2].img}
                   alt="lifestyle"
-                  width="996"
-                  height="1245"
+                  width="1380"
+                  height="1380"
                 />
               </div>
-              <div className="hidden h-60 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
+              <div className="h-60 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
-                  alt="lifestyle"
-                  width="2000"
-                  height="1333"
-                />
-              </div>
-              <div className="h-64 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
-                <img
-                  className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[3].img}
                   alt="lifestyle"
                   width="826"
                   height="1239"
                 />
               </div>
-              <div className="h-72 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
+              <div className="h-64 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[4].img}
                   alt="lifestyle"
-                  width="1380"
-                  height="1380"
+                  width="826"
+                  height="1239"
                 />
               </div>
-              <div className="h-80 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
+              <div className="hidden h-72 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[6].img}
                   alt="lifestyle"
-                  width="1380"
-                  height="1380"
+                  width="826"
+                  height="1239"
                 />
               </div>
-              <div className="h-96 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
+              <div className="hidden h-80 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96 sm:block">
                 <img
                   className="h-full w-full object-cover"
-                  src="/images/projects/project-one.jpg"
+                  src={projects[0].img}
                   alt="lifestyle"
-                  width="740"
-                  height="1110"
+                  width="2000"
+                  height="1335"
                 />
               </div>
+             
+
+              
+              
             </div>
           </div>
         </section>

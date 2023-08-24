@@ -1,6 +1,5 @@
 "use client";
 import { useStateContext } from "@/context";
-import { useThemeMode } from "@/hooks/useThemeMode";
 import React from "react";
 
 const ThemeToggler = () => {

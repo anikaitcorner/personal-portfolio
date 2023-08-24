@@ -19,7 +19,7 @@ const State = () => {
 
 const Context = createContext({} as ReturnType<typeof State>);
 
-export const ContextProvider = ({ children }: { children: any }) => {
+export const ContextProvider = ({ children }:React.PropsWithChildren) => {
   return <Context.Provider value={State()}>{children}</Context.Provider>;
 };
 
