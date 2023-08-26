@@ -15,3 +15,15 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+
+.adjust__height{
+  transform: translate3d(0px, 156px, 0px) !important;
+}
+
+@media (max-width:768px){
+  .adjust__height{
+    transform: none !important;
+  }
+  
+}

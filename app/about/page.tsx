@@ -21,10 +21,7 @@ export default function About() {
         <section>
           <div
             data-rellax-speed="-3"
-            className="rellax mb-80 overflow-hidden px-1"
-            style={{
-              transform: "translate3d(0px, 156px, 0px)",
-            }}
+            className="rellax mb-80 overflow-hidden px-1 adjust__height"
           >
             <div className="flex items-center justify-center gap-1">
               <div className="h-80 w-20 overflow-hidden rounded-md transition-all duration-500 hover:w-96">
